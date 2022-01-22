@@ -1,0 +1,26 @@
+# Description: disk encryption
+# URL:         https://veracrypt.fr/
+# Maintainer:  duskmourn
+# Depends on:  gnupg yasm fuse
+
+name=VeraCrypt
+version=1.25.7
+release=2
+source=(https://launchpad.net/veracrypt/trunk/1.25.7/+download/VeraCrypt_1.25.7_Source.tar.bz2
+	https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.0/wxWidgets-3.1.0.tar.bz2)
+
+build() {
+
+  cd $PKGMK_SOURCE_DIR
+  tar -xjf wxWidgets-3.1.0.tar.bz2
+
+  cd $OLDPWD/src
+  make NOGUI=1 WXSTATIC=1 WX_ROOT=$PKGMK_SOURCE_DIR/wxWidgets-3.1.0/ wxbuild
+  make NOGUI=1 WXSTATIC=1
+
+  mkdir -p $PKG/usr/bin/
+  cp Main/veracrypt $PKG/usr/bin
+
+  rm -r $PKGMK_SOURCE_DIR/wxWidgets-3.1.0
+}
+

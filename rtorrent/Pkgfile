@@ -1,0 +1,19 @@
+# Description: bitorrent console client
+# URL: https://rakshasa.github.io/rtorrent
+# Maintainer: duskmourn
+# Depends on: libtorrent
+
+name=rtorrent
+version=0.9.8
+release=1
+source=(https://github.com/rakshasa/rtorrent/releases/download/v0.9.8/rtorrent-$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+  ./autogen.sh
+  ./configure --prefix=/usr --enable-debug=no
+
+  make
+  make DESTDIR=$PKG install
+}

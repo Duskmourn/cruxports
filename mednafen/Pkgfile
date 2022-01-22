@@ -1,0 +1,18 @@
+# Description:	Multi-system gaming emulator
+# URL:		https://mednafen.github.io
+# Maintainer:	duskmourn
+# Depends on:	
+
+name=mednafen
+version=1.29.0
+release=2
+source=(https://mednafen.github.io/releases/files/$name-$version.tar.xz)
+
+build(){
+	cd $name
+	./configure \
+		--prefix=/usr \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+}

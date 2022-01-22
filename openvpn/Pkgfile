@@ -1,0 +1,32 @@
+# Description: VPN Client
+# URL:         http://www.openvpn.net
+# Maintainer:  duskmourn
+# Depends on:  lzo
+# Optional:    linux-pam
+
+name=openvpn
+version=2.5.5
+release=2
+source=(https://github.com/OpenVPN/openvpn/archive/refs/tags/v$version.tar.gz)
+
+build(){
+	cd $name-$version
+
+	[ -f configure ] || autoreconf -i -v -f
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man \
+		--enable-iproute2 \
+		"$([ ! -f /usr/include/security/pam_appl.h ] && echo --disable-plugin-auth-pam)"
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc
+
+	# when building from repository checkout, man page requires docutils
+	# so the glob may fail
+	cd doc
+	set -u failglob
+	for f in *.[1-8]; do
+		install -D -m 644 $f $PKG/usr/share/man/man${f##*.}/$f
+	done
+}

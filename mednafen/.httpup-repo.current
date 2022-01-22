@@ -1,0 +1,6 @@
+.signature
+.md5sum
+.footprint
+zsnes.patch
+Pkgfile
+libpng.patch

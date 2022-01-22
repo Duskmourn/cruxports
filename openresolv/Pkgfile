@@ -1,0 +1,16 @@
+# Description: POSIX resolvconf implementation
+# URL: https://github.com/NetworkConfiguration/openresolv
+# Maintainer: duskmourn
+# Depends on: 
+
+name=openresolv
+version=3.12.0
+release=1
+source=(https://github.com/NetworkConfiguration/openresolv/archive/refs/tags/$name-$version.tar.gz)
+
+build(){
+	cd $name-$name-$version
+	./configure
+	make
+	make DESTDIR=$PKG install
+}
