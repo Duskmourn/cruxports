@@ -7,9 +7,9 @@ d:openvpn
 d:mednafen
 d:openresolv
 d:curl
-f:4b59034fff42c1e53622d93aa66e260e:rtorrent/.footprint
-f:d765a86da441048c74587a1f3c54f9c0:rtorrent/.signature
 f:46fefce8e1f85ee737bb13b2f79cf24f:rtorrent/Pkgfile
+f:a072507e4adf607b40a81900c09f8e18:rtorrent/.md5sum
+f:4b59034fff42c1e53622d93aa66e260e:rtorrent/.footprint
 f:7988083e0eb787e8300c993eaa5ea313:libtorrent/Pkgfile
 f:90da0f3814daf8d39c9dff7399da9260:libtorrent/.md5sum
 f:bc137cc6fe85f8b9fb730f93e96dd4de:libtorrent/.footprint
