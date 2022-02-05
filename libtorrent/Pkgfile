@@ -14,7 +14,8 @@ build() {
   ./autogen.sh
 
   ./configure --prefix=/usr \
-    --enable-debug=no
+    --enable-debug=no \
+    --enable-udns
   make
   make install DESTDIR=$PKG
 }
