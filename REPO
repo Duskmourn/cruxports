@@ -7,7 +7,9 @@ d:openvpn
 d:mednafen
 d:openresolv
 d:curl
-f:46fefce8e1f85ee737bb13b2f79cf24f:rtorrent/Pkgfile
+d:udns
+d:citra-emu
+f:503eb0bf14b492cf5998c70af919500d:rtorrent/Pkgfile
 f:a072507e4adf607b40a81900c09f8e18:rtorrent/.md5sum
 f:4b59034fff42c1e53622d93aa66e260e:rtorrent/.footprint
 f:7988083e0eb787e8300c993eaa5ea313:libtorrent/Pkgfile
@@ -35,6 +37,12 @@ f:32c76eb039a415b8ea27d6ad2d4a2a3a:mednafen/.footprint
 f:2a767d2cf9d53178a9788f8f08c15592:openresolv/Pkgfile
 f:ef183d87c54392c25d4aebc76702d9ae:openresolv/.md5sum
 f:890f4ccc97b70bd80e6a8290dc878a9b:openresolv/.footprint
-f:6ce9b55c62e666c7fb0b6d5dbc299256:curl/Pkgfile
+f:872779b01ff1ac7bb80a89f0ac8654d3:curl/Pkgfile
 f:38cd77905ad05fecf9f378c46d7775d2:curl/.md5sum
 f:696515ae2478acad2b7883437d3743fa:curl/.footprint
+f:33de761ec7d8ff7aafb8283800fae90e:udns/.md5sum
+f:c65f1894b806d9b7ad54e4f0670659f1:udns/Pkgfile
+f:cb15aa607e9a439ae48dc1326d6e2fab:udns/.footprint
+f:326cede230ef9d2ef9641eab9f12cc19:citra-emu/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:citra-emu/.md5sum
+f:355b3292a39e09be54af34d5b0db3706:citra-emu/.footprint
