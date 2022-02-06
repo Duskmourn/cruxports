@@ -1,7 +1,7 @@
 # Description: bitorrent console client
 # URL: https://rakshasa.github.io/rtorrent
 # Maintainer: duskmourn
-# Depends on: libtorrent
+# Depends on: libtorrent-git
 
 name=rtorrent
 version=0.9.8

@@ -1,5 +1,5 @@
 # Description: A tool for transfering files with URL syntax
-# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Maintainer: dusk
 # URL: https://curl.haxx.se
 # Depends on: openssl zlib zstd c-ares
 

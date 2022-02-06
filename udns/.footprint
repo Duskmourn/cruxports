@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/dnsget
+-rwxr-xr-x	root/root	usr/bin/ex-rdns
+-rwxr-xr-x	root/root	usr/bin/rblcheck
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/udns.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libudns.a
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/dnsget.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rblcheck.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/udns.3.gz

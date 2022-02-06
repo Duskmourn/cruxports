@@ -1,0 +1,21 @@
+# Description:	Asyncronous DNS library
+# URL:		https://www.corpit.ru/mjt/udns.html
+# Maintainer:	dusk
+# Depends on:	
+
+name=udns
+version=0.4
+release=1
+source=(https://www.corpit.ru/mjt/udns/udns-$version.tar.gz)
+
+build () {
+	cd $name-$version
+	./configure
+	make
+	mkdir -p $PKG/usr/{bin,include,lib} $PKG/usr/share/man/man{1,3}
+	cp ex-rdns rblcheck dnsget $PKG/usr/bin
+	cp udns.h $PKG/usr/include
+	cp libudns.a $PKG/usr/lib
+	cp rblcheck.1 dnsget.1 $PKG/usr/share/man/man1
+	cp udns.3 $PKG/usr/share/man/man3
+}
