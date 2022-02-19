@@ -8,6 +8,7 @@ d:mednafen
 d:openresolv
 d:curl
 d:citra-emu
+d:PCSX2
 f:503eb0bf14b492cf5998c70af919500d:rtorrent/Pkgfile
 f:a072507e4adf607b40a81900c09f8e18:rtorrent/.md5sum
 f:4b59034fff42c1e53622d93aa66e260e:rtorrent/.footprint
@@ -42,3 +43,6 @@ f:696515ae2478acad2b7883437d3743fa:curl/.footprint
 f:326cede230ef9d2ef9641eab9f12cc19:citra-emu/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:citra-emu/.md5sum
 f:355b3292a39e09be54af34d5b0db3706:citra-emu/.footprint
+f:7264a959d8bb5284830c07298643c406:PCSX2/Pkgfile
+f:3bf17def869f3aca31509a184cdc036d:PCSX2/.md5sum
+f:5ea4a8412347b78fb30801092c099e71:PCSX2/.footprint
