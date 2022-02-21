@@ -1,0 +1,19 @@
+# Description: Dolphin is a GameCube / Wii emulator
+# Maintainer: duskmourn
+# URL: https://dolphin-emu.org/
+# Depends on: cmake git qt5 ffmpeg openal
+
+name=dolphin-emu
+version=git
+release=1
+source=()
+
+build() {
+        git clone https://github.com/dolphin-emu/dolphin
+        cd dolphin
+	git submodule update --init
+        mkdir Build && cd Build
+	cmake ..
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,17 @@
+# Description: A front-end (GUI) for mednafen emulator
+# Maintainer: duskmourn
+# URL: https://github.com/AmatCoder/mednaffe
+# Depends on: mednafen gtk3
+
+name=mednaffe
+version=0.9.2
+release=1
+source=(https://github.com/AmatCoder/mednaffe/releases/download/0.9.2/$name-$version.tar.gz)
+
+build() {
+        cd $name-$version
+        ./configure
+        make
+        make DESTDIR=$PKG install
+}
+
