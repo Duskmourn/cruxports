@@ -15,4 +15,6 @@ build() {
 	cmake .. -DCMAKE_BUILD_TYPE=Release
 	make
  	make DESTDIR=$PKG install
+	
+	rm .md5sum
 }
