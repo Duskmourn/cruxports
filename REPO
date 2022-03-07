@@ -21,8 +21,6 @@ f:839574295b12e421649e4ac1d3c54d3f:openvpn/Pkgfile
 f:bab612a155d72552d69e1c4db64f4858:openvpn/openvpn.8-2.5.0
 f:865eeaa7b5ee5209656da12a9addab7b:openvpn/.md5sum
 f:313c0ba7ef22033c8bb9ffbdaa0fa6de:openvpn/.footprint
-f:da2b19c19e97197e2179088cbcd7a49e:openvpn/v2.5.5.tar.gz
-f:49647248b172b4bcc4d0a70cfdfb329c:openvpn/openvpn#2.5.5-2.pkg.tar.gz
 f:405cd29160f1119572214f805093172d:mednafen/Pkgfile
 f:2c8559bd9f7fdf1ab5466ee1f4a5b2c5:mednafen/libpng.patch
 f:fd13769c13de49601a234b46fb802a75:mednafen/zsnes.patch
