@@ -17,10 +17,10 @@ f:5b09e0c05c38e9f5051fe15a9afa0b37:shntool/.signature
 f:616583f3f41f98fab68d9293071a022b:shntool/Pkgfile
 f:4265935ef1d684a4b49041278ffda7de:shntool/shntool-3.0.10-large-size.diff
 f:6f0d61ddbf8cbee5c0b51a99e987ddda:shntool/shntool-3.0.10-large-times.diff
-f:839574295b12e421649e4ac1d3c54d3f:openvpn/Pkgfile
+f:c5e07b5d3ec27637a422372570acca03:openvpn/Pkgfile
 f:bab612a155d72552d69e1c4db64f4858:openvpn/openvpn.8-2.5.0
-f:865eeaa7b5ee5209656da12a9addab7b:openvpn/.md5sum
-f:313c0ba7ef22033c8bb9ffbdaa0fa6de:openvpn/.footprint
+f:b0218cd11188dee0554e5e08be5a70a3:openvpn/.md5sum
+f:d555cc25146b16b32ee620a67baa11d2:openvpn/.footprint
 f:405cd29160f1119572214f805093172d:mednafen/Pkgfile
 f:2c8559bd9f7fdf1ab5466ee1f4a5b2c5:mednafen/libpng.patch
 f:fd13769c13de49601a234b46fb802a75:mednafen/zsnes.patch
@@ -29,7 +29,7 @@ f:32c76eb039a415b8ea27d6ad2d4a2a3a:mednafen/.footprint
 f:2a767d2cf9d53178a9788f8f08c15592:openresolv/Pkgfile
 f:ef183d87c54392c25d4aebc76702d9ae:openresolv/.md5sum
 f:890f4ccc97b70bd80e6a8290dc878a9b:openresolv/.footprint
-f:a6fe49268f18f26e80070a911e08b87e:citra-emu/Pkgfile
+f:326cede230ef9d2ef9641eab9f12cc19:citra-emu/Pkgfile
 f:f04d22e3c8a6f314800af283f61b3469:mednaffe/Pkgfile
 f:92cbfc73bc52bb8ad7fc525db9669dd3:mednaffe/.md5sum
 f:076834a5ab6f5262bfad1396aa9358b4:mednaffe/.footprint
